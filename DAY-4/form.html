@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+    <!-- videp and audio tag -->
+
+    <!-- form in HTML -->
+    <!-- form is to collect the data from the user -->
+   <fieldset>
+      <legend>User Information</legend>
+    <form action="">
+        <label for="Fname">FirstName</label>
+        <input type="text" name="FirstName" id="Fname" placeholder="Enter your FirstName..." required autocomplete="off"> <br>  <br>
+
+        <label for="Lname">LastName:</label>
+        <input type="text" name="LastName" id="Lname" placeholder="Enter your LastName..." required> <br> <br>
+
+        <label for="Phone">Mobile:</label>
+        <input type="tel" name="MobileNumber" id="Phone" placeholder="Enter your phonenumber..."> <br> <br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="Password" id="password" placeholder="Enter your password..."> <br> <br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="Email" id="email" placeholder="Enter your Email..."> <br> <br>
+
+        <label for="Address">Address</label> <br>
+        <textarea name="Address" id="Address"></textarea> <br> <br>
+
+        <!-- Radio and Checkbox -->
+        <!-- In HTML, radio button is to select only one option but checkbox is to select one or multiple options -->
+
+        <label for="gender">Gender</label>
+        <input type="radio" name="Gender" id="gender" value="Male">Male
+        <input type="radio" name="Gender" id="gender" value="female">female
+        <input type="radio" name="GEnder" id="gender" value="Non-Binary">Non-Binary <br> <br>
+
+        <label for="Language">Languages</label>
+        <input type="checkbox" name="Language1" id="Language" value="English">English
+        <input type="checkbox" name="Language2" id="Language" value="Telugu">Telugu
+        <input type="checkbox" name="Language3" id="Language" value="Hindi">Hindi
+        <input type="checkbox" name="Language4" id="Language" value="Gujarti">Gujarti
+        <input type="checkbox" name="Language5" id="Language" value="Marthi">Marthi
+        <input type="checkbox" name="Language6" id="Language" value="Oriya">Oriya <br> <br>
+
+        <label for="select">choose a pet:</label>
+
+        <select name="pets" id="select">
+            <option value="">-- Please choose an option--</option>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="hamster">Hamster</option>
+            <option value="parrot">Parrot</option>
+            <option value="spider">Spider</option>
+            <option value="goldfish">Goldfish</option>
+        </select> <br> <br>
+
+        <label for="avatar">Choose a profile picture:</label>
+        <input type="file" name="avatar" id="avatar" action="image/png, image/jpeg"> <br> <br>
+
+        <label for="start">StartDate:</label>
+        <input type="date" name=" trip-start" id="start" value="2024-05-22" min="2024-01-01" max="2024-12-31"> <br> <br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        <button type="submit">SubmitNow</button>
+        
+
+
+
+    </form>
+</fieldset>
+</body>
+</html>

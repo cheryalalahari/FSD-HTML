@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://static.vecteezy.com/system/resources/thumbnails/003/171/355/small/objective-lens-icon-with-six-rainbow-colors-vector.jpg" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- create a table which have 2 coloumns and 2 rows, name and age with atleast 2 entries -->
+    <table border="10" cellpadding="10" cellspacing="10">
+ 
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+
+        <tr>
+            <td>Jhon</td>
+            <td>20</td>
+
+        </tr>
+        <tr>
+            <td>Hari</td>
+            <td>26</td>
+
+            
+        </tr>
+    </table>
+    <br>
+    <br>
+
+
+    <!-- signup form -->
+
+    <form >
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="enter your name" required>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="enter your email" required>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="enter your password" min="8" max="16" required>
+
+        <!-- radio and checkbox -->
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" value="Female" name="gender">female
+
+        <!-- checkbox -->
+
+        <!-- <input type="checkbox" name="Language" id="lang" value="english"> -->
+
+        <!-- <input type="checkbox" name="Language" id="lang" value="telugu">
+
+        <input type="checkbox" name="Language" id="lang" value="hindi"> -->
+
+        <label for="pets">Pets</label>
+        <select name="Pets" id="pets">
+            <option value="">Select the option</option>
+            <option value=""></option>
+            <option value="Dog">dog</option>
+            <option value="Cat">cat</option>
+            <option value="Rabbit">Rabbit</option>
+            <option value="Parrot">Parrot</option>
+        </select>
+
+        <input type="checkbox" name="Agreement" id="agree">i agree, the terms and conditions
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

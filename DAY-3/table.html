@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables in HTML</title>
+</head>
+<body>
+    <!-- <table></table> -->
+
+    <!-- table => thead and tbody => th and td  -->
+
+    <!-- table => tr => th => second row tr => td -->
+
+    <table border="1">
+        <thead>
+            <th>Sr.no</th>
+            <th>Name</th>
+            <th>Number</th>
+            <th>Qualification</th>
+        </thead>
+
+        <tbody>
+            <td>1</td>
+            <td>John</td>
+            <td>2376889</td>
+            <td>B.Tech</td>
+        </tbody>
+    </table>
+
+    <!-- Cellspacing and Cellpadding  -->
+    <!-- cellspacing - space will be take outside or around the cell -->
+    <!-- cellpadding- space will be taken inside of the cell -->
+    <center>
+    <table border="1" width="100%" cellspacing="10" cellpadding="10">
+        <tr>
+            <th>Sr.no</th>
+            <th style="background-color: aqua;">Name</th>
+            <th>Number</th>
+            <th style="background-color: aqua;">Qualification</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td style="background-color: rgb(73, 121, 121);">John</td>
+            <td>2376889</td>
+            <td style="background-color: rgb(74, 111, 111);">B.Tech</td> 
+        </tr>
+
+        
+        <tr>
+            <td>2</td>
+            <td style="background-color: rgb(95, 127, 127);">John</td>
+            <td>2376889</td>
+            <td style="background-color: rgb(99, 132, 132);">B.Tech</td> 
+        </tr>
+
+        
+        <tr>
+            <td>3</td>
+            <td style="background-color: rgb(96, 133, 133);">John</td>
+            <td>2376889</td>
+            <td style="background-color: rgb(95, 132, 132);">B.Tech</td> 
+        </tr>
+
+
+        <tr>
+            <td>4</td>
+            <td style="background-color: rgb(99, 132, 132);">John</td>
+            <td>2376889</td>
+            <td style="background-color: rgb(94, 127, 127);">B.Tech</td> 
+        </tr>
+
+
+    </table>
+ </center>
+
+
+<br>
+
+  <center>
+    <table border="1" cellspacing="0">
+        <tr>
+            <th colspan="6">Time Table</th>
+        </tr>
+
+        <tr>
+            <th rowspan="6">Hours</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thurs</th>
+            <th>Fri</th>
+        </tr>
+
+        <tr>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Arts</td>
+        </tr>
+
+        <tr>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Arts</td>
+        </tr>
+
+        <tr>
+            <th colspan="5">Lunch</th>
+        </tr>
+
+        <tr>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td colspan="2" rowspan="2" align ="center">Project</td>
+        </tr>
+        
+        <tr>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+                        
+        </tr>
+        
+        
+
+
+    </table>
+  </center>
+
+
+  <br>
+  
+  <center>
+  <table border="1">
+    <tr>
+        <th colspan="2">HTML Table</th>
+    </tr>
+
+    <tr>
+        <td>Cell 1</td>
+        <td align="center">Cell 2
+            <table border="1"
+            <tr>
+                <th colspan="2">Nest HTML Table</th>
+            </tr>
+
+            <tr>
+                <td>Cell 2.1</td>
+                <td>Cell 2.2</td>
+            </tr>
+
+            <tr>
+                <td>Cell 2.3</td>
+                <td>Cell 2.4</td>
+            </tr>
+            </table
+        </td>
+    </tr>
+  </table>
+ </center>
+</body>
+</html>
